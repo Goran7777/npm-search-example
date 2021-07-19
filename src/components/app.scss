@@ -1,0 +1,50 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper__main {
+    color: green;
+}
+
+.portalWithState {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 3px solid green;
+    padding: 5px;
+    margin: 6rem;
+    height: 200px;
+}
+
+.portalButtonClose {
+    margin-top: 2rem;
+    display: block;
+    width: 12rem;
+    margin: 0 auto;
+    font-size: 2rem;
+}
+
+.portalButtonOpen {
+    display: block;
+    width: 12rem;
+    margin: 0 auto;
+    font-size: 2rem;
+}
+
+p {
+    text-align: center;
+}
+
+form {
+    margin-bottom: 2rem;
+}
+
+form button {
+    height: 2.5rem;
+    width: 8rem;
+}
+
+input {
+    height: 2.5rem;
+}
